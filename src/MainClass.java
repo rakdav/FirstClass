@@ -1,4 +1,5 @@
 import model.Rectanlge;
+import model.Triangle;
 
 import java.util.Scanner;
 
@@ -27,5 +28,19 @@ public class MainClass
         rect2.Print();
         Rectanlge rect3=new Rectanlge(56);
         rect3.Print();
+
+        double a=in.nextDouble();
+        double b=in.nextDouble();
+        double c=in.nextDouble();
+        Triangle triangle1=new Triangle(a,b,c);
+        triangle1.Print();
+        double x1=in.nextDouble();
+        double y1=in.nextDouble();
+        double x2=in.nextDouble();
+        double y2=in.nextDouble();
+        double x3=in.nextDouble();
+        double y3=in.nextDouble();
+        Triangle triangle2=new Triangle(x1,y1,x2,y2,x3,y3);
+        triangle2.Print();
     }
 }

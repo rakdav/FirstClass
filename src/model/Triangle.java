@@ -28,4 +28,8 @@ public class Triangle
     {
         return a+b+c;
     }
+    public void Print()
+    {
+        System.out.println("Периметр:"+Perimetr()+" Площадь:"+Area());
+    }
 }
